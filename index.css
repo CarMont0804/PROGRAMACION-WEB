@@ -1,0 +1,34 @@
+body{
+    color: red;
+    background-image: url(BG.jpg);
+}
+#titulo{
+    color: rgb(85, 133, 14);
+    font-weight: 700;
+    font-size: 80pt;
+    text-align: center;
+}
+.parrafo{
+    color: rgb(31, 55, 189);
+}
+div{
+    background-color: rgb(250, 198, 227);
+    width: 400px;
+    margin: 0 auto;
+}
+nav ul{
+    background-color: rgb(205, 183, 226);
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: blueviolet;
+}
